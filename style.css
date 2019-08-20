@@ -1,4 +1,4 @@
-body,h1,h2,h3,h4,h5,h6 {font-family: "Yu Gothic";margin: 0px;}
+﻿body,h1,h2,h3,h4,h5,h6 {font-family: "Yu Gothic";margin: 0px;}
 p{
   line-height: 1.6
 }
@@ -912,4 +912,6 @@ transition: all .5s;
   .show-more span{
     max-width: 80px;
   }
+.test{
+}
 }
