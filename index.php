@@ -32,10 +32,12 @@
   <img class="foot2" src="images/foot-mark2.png">
   <div class="container concept text-center">
     <h2>Concept</h2>
-    <p>”Kucing”とは、インドネシア語・マレー語で「猫」という意味です。 <br>
-      お肌のケアは毎日必要なことだから、<br>
-      忙しい毎日に、ラクチンケアで、猫のようにゆったりしたあなただけの時間をご提供したい。<br>
-      そんな思いから”La Kucing”は誕生しました。</p>
+    <p>
+      ”Kucing”とは、インドネシア語・マレー語で「猫」という意味です。 <br>
+      お肌のケアは忙しくても毎日必要なことだから、<br>
+      ラクチンケアで、猫のようにゆったりしたあなただけの時間をご提供したい。<br>
+      そんな思いから”La Kucing”は誕生しました。
+      </p>
   </div>
 </div>
 
@@ -193,29 +195,28 @@
               <img src="images/ingridient1.png">
               <div>
                 <p><span>1.</span> キュアベリー</p>
-                <p class="ingridient-desc">ブルーライトからのケア、<br>
-                シワ・たるみ予防効果。</p>
+                <p class="ingridient-desc">ブルーライトからのケア、シワ・たるみ予防効果。</p>
               </div>
             </div>
             <div class="d-flex fruits border-bottom">
               <img src="images/ingridient2.png">
               <div>
                 <p><span>2.</span> ヒメフウロエキス</p>
-                <p class="ingridient-desc">紫外線対策、<br>シワ・皮ふ弾力改善効果。</p>
+                <p class="ingridient-desc">紫外線対策、シワ・皮ふ弾力改善効果。</p>
               </div>
             </div>
             <div class="d-flex fruits border-bottom">
               <img src="images/ingridient3.png">
               <div>
                 <p><span>3.</span> 米ヌカエキス</p>
-                <p class="ingridient-desc">紫外線・ブルーライトからのメラニン生成 <br>抑制、シミ対策効果。</p>
+                <p class="ingridient-desc">紫外線・ブルーライトからのメラニン生成抑制、シミ対策効果。</p>
               </div>
             </div>
             <div class="d-flex fruits border-bottom">
               <img src="images/ingridient4.png">
               <div>
                 <p><span>4.</span> 酒粕エキス</p>
-                <p class="ingridient-desc">肌のかさつきケア、<br>  保湿・弾力改善効果。</p>
+                <p class="ingridient-desc">肌のかさつきケア、保湿・弾力改善効果。</p>
               </div>
             </div>
           </div>

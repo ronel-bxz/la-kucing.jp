@@ -7,28 +7,28 @@
           <div class="nav">
             <ul>
               <li><a href="">製品情報</a></li>
-              <li><a href="">会社情報</a></li>
-              <li><a href="">個人情報保護方針</a></li>
-              <li><a href="">サイト利用について</a></li>
-              <li><a href="">お問い合わせ</a></li>
+              <li><a target="_blank" href="https://koki-beauty.com/?page_id=138">会社情報</a></li>
+              <li><a href="/privacy-policy/">個人情報保護方針</a></li>
+              <li><a href="/rules/">サイト利用について</a></li>
+              <li><a href="/contact/">お問い合わせ</a></li>
             </ul>
           </div>
         </div>
         <div class="col-md-12 col-lg-4">
             <ul class="social-media">
-              <li><a href=""><img src="images/facebook-icon.png"></a></li>
-              <li><a href=""><img src="images/twitter-icon.png"></a></li>
-              <li><a href=""><img src="images/instagram-icon.png"></a></li>
+              <li><a href=""><img src="/images/facebook-icon.png"></a></li>
+              <li><a href=""><img src="/images/twitter-icon.png"></a></li>
+              <li><a href="https://www.instagram.com/81drugstore/" target="_blank"><img src="/images/instagram-icon.png"></a></li>
             </ul>
         </div>
       </div>
-      
+
    <p class="copy py-0">Copyright KOKI. All Rights Reserved.</p>
     </div>
   </div>
 
   <a href="javascript:;" id="go-up" class="go-up">
-    <img src="images/go-up.png">
+    <img src="/images/go-up.png">
   </a>
 </footer>
 </main>
@@ -76,7 +76,7 @@ $(function(){
       $('main').removeClass('open');
       $('nav').removeClass('open');
       $('.menu').css('color','#000');
-      $('.wrapper').css('overflow-y','scroll');    
+      $('.wrapper').css('overflow-y','scroll');
     }
   });
 });

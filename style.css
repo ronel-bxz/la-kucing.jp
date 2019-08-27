@@ -1,4 +1,4 @@
-﻿body,h1,h2,h3,h4,h5,h6 {font-family: "Yu Gothic";margin: 0px;}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Yu Gothic";margin: 0px;}
 p{
   line-height: 1.6
 }
@@ -478,7 +478,7 @@ main h1 {
 }
 
 nav {
-  width: 66%;
+  width: 37%;
   height: 100%;
   padding-top: 20px;
   background-color: rgb(16, 69, 153, 1);
@@ -608,16 +608,132 @@ transition: all .5s;
   
 }
 .header-fixed{
-   background-color: #fff;
+  background-color: #fff;
   transition: all 0.4s ease-in-out 0s;
   position: fixed;z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 .banner-container-fluid{
   background-image: url('images/wood.jpg');position: relative;top:84px;
 }
+.pages-container{
+  margin-top: 84px;
+  margin-bottom: 160px;
+}
+.pages-container h1{
+  font-size: 24px;
+  font-weight: bold;
+}
 
-  
+.privacy-policy,.contact{
+  margin-top: 200px;
+}
+.privacy-policy p {
+  font-size: 18px;
+}
+.privacy-policy h1{
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 28px;
+}
+.privacy-content{
+  margin-top: 60px;
+}
+.privacy-policy ul li{
+  font-size: 18px;
+}
+.privacy-address{
+  margin-top: 20px;
+}
+.contact-content{
+  width: 550px;
+  max-width: 100%;
+  margin: 0 auto
+}
+.contact h1{
+  margin-bottom: 60px;
+}
+.contact p{
+  font-size: 14px;
+}
+.contact-table tr .bg-gray{
+  font-size: 14px;
+  padding-left: 20px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+.contact-table-title{
+  font-size: 14px;
+}
+.contact-table tr td span,.contact-table-title span{
+  color:#fa0505;
+}
+.bg-gray{
+  background-color: #eeeeee;
+  max-width: 100%;
+  width: 180px;
+}
+.border-gray{
+  border:1px solid #f9f9f9;
+}
+.border-white{
+  border:1px solid #fff;
+}
+.contact-table tr .border-gray{
+  font-size: 14px;
+  padding-left: 30px;
+  padding-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 14px;
 
+}
+.name input,.zip input{
+  width: 94px !important;
+  max-width: 100%;
+}
+.contact-table tr label{
+  margin-right: 10px;
+}
+.contact-table tr td input,.contact-table tr td select{
+  width: 100%;
+}
+.contact-table tr td textarea{
+  width: 100%;
+  height: 118px;
+}
+.address label{
+  margin-top: 10px;
+}
+.email input{
+  margin-bottom: 10px;
+}
+.contact-table tr td input::placeholder{
+  padding-left: 4px;
+}
+.privacy-policy-link{
+  margin-top: 18px;
+}
+.privacy-policy-link span{
+  color: #fa0505;
+}
+.check_content{
+  background-color: #14c871;
+  border: none;
+  width: 250px;
+  max-width: 100%;
+  color: #fff;
+  padding: 20px 0px;
+  margin-top: 30px;
+  font-size: 18px;
+}
+.error-message{
+  color: red;
+}
+.name-padding-left{
+  padding-left: 30px;
+}
 @media (max-width: 1199.98px) {
   .product-side-desc h3{
     font-size: 20px;
@@ -795,8 +911,36 @@ transition: all .5s;
   }
   .left-berry{
     left: -15px;
-   
+    }
+  .privacy-policy p {
+    font-size: 14px;
   }
+  .privacy-policy ul li {
+    font-size: 14px;
+  }
+  .privacy-content {
+      margin-top: 50px;
+  }
+  .privacy-policy {
+    margin-top: 140px;
+  }
+  .contact-table tr .border-gray,.contact-table tr .bg-gray{
+    display: block;
+    width: 100%;
+  }
+  .border-black{
+    border: 1px solid #000 !important;
+    }
+    .contact-table tr .border-gray{
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .border-white{
+      border: none;
+    }
+    .name-padding-left{
+      padding-left: 20px;
+    }
   }
   @media (max-width: 575.98px) {
     .fruits img{
@@ -882,7 +1026,7 @@ transition: all .5s;
     .logo img{
       height: 40px;
     }
-  .banner-container-fluid{
+  .banner-container-fluid,.pages-container{
     top: 74px;
   }
   .right-berry{
@@ -912,6 +1056,4 @@ transition: all .5s;
   .show-more span{
     max-width: 80px;
   }
-.test{
-}
 }
